@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  z-index: 1;
+  display: flex;
+  padding: 36px;
+  position: absolute;
+  align-items: center;
+  height: 48px;
+}
+
+header a {
+  color: hsl(215, 51%, 70%);
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 600;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+a:hover {
+  color: #2c7dfa;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  max-width: 360px;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.text {
+  padding: 0px 10px;
+}
+.text h2 {
+  color: hsl(218, 44%, 22%);
+}
+
+.text p {
+  padding: 1rem;
+  color: hsl(220, 15%, 55%);
+}
