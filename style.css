@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 25px 2rem rgba(0, 0, 0, 0.1);
+}
+
+.nft {
+  width: 100%;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image_container:hover .nft {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.image_container:hover .view {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.view {
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle_text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.nft_name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nft_description {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.price_time_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.nft_price {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  color: hsl(178, 100%, 50%);
+}
+.price {
+  display: flex;
+}
+.nft_time {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  color: hsl(215, 51%, 70%);
+}
+.time {
+  display: flex;
+}
+
+.line {
+  display: flex;
+  align-self: center;
+  width: 85%;
+  height: 0.5px;
+  background-color: hsla(215, 51%, 70%, 0.3);
+  margin: 1rem 0 1rem 0;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem 1rem 1.5rem;
+}
+
+.creator_image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.creator_text {
+  margin-left: 0.75rem;
+  font-size: 0.75rem;
+  opacity: 1;
+  color: hsl(215, 51%, 70%);
+}
+
+.creator_text a {
+  font-size: 0.75rem;
+}
