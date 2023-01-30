@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -13,11 +14,8 @@ body {
 
 header {
   z-index: 1;
-  display: flex;
   padding: 36px;
-  position: absolute;
-  align-items: center;
-  height: 48px;
+  height: 54px;
 }
 
 header a {
@@ -37,7 +35,7 @@ a:hover {
 
 main {
   display: flex;
-  max-width: 360px;
+  max-width: 25rem;
   margin: 0 auto;
   align-items: center;
   height: 100vh;
