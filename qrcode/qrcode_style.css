@@ -6,7 +6,11 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
 }
+
 header {
   z-index: 1;
   display: flex;
@@ -29,13 +33,6 @@ a:hover {
   color: #2c7dfa;
   cursor: pointer;
   transition: 0.5s ease;
-}
-
-body {
-  font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%);
-
-  font-size: 15px;
 }
 
 main {
