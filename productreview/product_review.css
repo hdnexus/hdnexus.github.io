@@ -9,7 +9,6 @@
 
 /* header */
 header {
-  display: flex;
   font-family: "Outfit", sans-serif;
   z-index: 1;
   padding: 36px;
