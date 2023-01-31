@@ -44,7 +44,7 @@ main {
 
 .card {
   background-color: hsl(216, 50%, 16%);
-  width: 20rem;
+  max-width: 20rem;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
